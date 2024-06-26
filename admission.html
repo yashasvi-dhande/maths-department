@@ -8,6 +8,78 @@
 
 
     <style>
+        .logo {
+            width: 30% display: flex;
+            justify-content: center;
+            align-item: center;
+        }
+
+        .logo img {
+            width: 54%;
+            border: 3px solid rgb(13, 13, 13);
+            border-radius: 80px;
+
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: -10px;
+            cursor: pointer;
+            margin-top: -15px;
+
+        }
+
+        .nav-list {
+            background-color: rgb(2, 2, 37);
+            width: 61.55%;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 23px 34px;
+            color: white;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: rgb(246, 243, 243);
+        }
+
+        .nav-list li a:hover {
+            text-decoration: none;
+            color: grey;
+        }
+
+        .rightNav {
+            background-color: rgb(2, 2, 37);
+            width: 60.2%;
+            text-align: right;
+            padding: 0.96%;
+        }
+
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid black;
+            border-radius: 9px;
+
+        }
+
+        .background {
+            background: rgba(29, 18, 79, 0.8) url('img\ img1.jpg');
+            background: rgb(82, 135, 137);
+            background-size: cover;
+            background-blend-mode: darken;
+
+        }
+
+
+
 
         .admissionSection {
             background-color: cadetblue;
@@ -20,7 +92,7 @@
             margin-left: 90px;
         }
 
-        .admissionSection ul{
+        .admissionSection ul {
             margin-left: 60px;
             margin-top: 45px;
         }
@@ -72,12 +144,29 @@
             padding: 35px;
             padding-bottom: 0px;
         }
-
     </style>
 
 </head>
 
 <body>
+
+    <nav class="navbar" background>
+        <ul class="nav-list">
+            <div class="logo"><img src="img/logo2.png"></div>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/faculty.html">FACULTY</a></li>
+            <li><a href="/syllabus.html">SYLLABUS</a></li>
+            <li><a href="/admission.html">ADMISSION</a></li>
+            <li><a href="/contact.html">CONTACTS</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+
+
 
     <section class="admissionSection">
 
