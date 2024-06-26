@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .syllabussection img {
+            width: 204.56vh;
+            height: 120vh;
+        }
+
+
+        .container {
+            background: cadetblue;
+            display: flex;
+            justify-content: space-evenly;
+            height: 65vh;
+            margin: 0px;
+            padding: 26px;
+        }
+
+        .col-3 {
+            margin: 45px;
+            padding: 1px;
+        }
+
+        .col-3 ul {
+            font-size: larger;
+        }
+
+        .col-4 {
+            margin: 36px;
+            padding: 10px;
+        }
+
+
+        /*.col-3 {
+            margin-right: 19%;
+            margin-left: -115px;
+        }
+
+
+
+        .col-3 ul {
+            margin-left: 161px;
+    font-size: larger;
+    margin-top: -50px;
+        }
+
+        .col-4 {
+            margin-right: -33%;
+            margin-left: 242px;
+        }
+
+        .col-4 ul {
+            margin-left: 180px;
+            font-size: larger;
+            margin-top: -50px;
+        }*/
+
+
+
+        h2 {
+            margin-left: 0px;
+            padding: 0px;
+            font-size: xx-large;
+        }
+
+        .text-big {
+            font-size: 41px;
+            margin-top: 170px;
+
+        }
+
+        .text-small {
+            font-size: 25px;
+
+        }
+
+        section.secSecond {
+            background: cadetblue;
+            margin-top: 0px;
+            /*   margin: 0px;
+            padding: 10px;  */
+        }
+
+        .sectionTag.text-big {
+            margin-top: -20px;
+            margin-left: 110px;
+            padding: 30px;
+        }
+
+        .secSecond .paras {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .secSecond div.col-1 {
+            flex: 0 0 auto;
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: auto;
+            width: 31%;
+            font-size: 19px;
+        }
+
+        .secSecond div.col-2 {
+            margin: 118px;
+            padding: 35px;
+            font-size: larger;
+        }
+
+        .text-footer {
+            background: rgb(52, 86, 86);
+            height: 35px;
+            text-align: center;
+            margin: 0px;
+            padding: 35px;
+            padding-bottom: 0px;
+        }
+
+
+        /*......................................menu-submenu.css.........................*/
+
+
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 10px 24px;
+            margin-left: 0px;
+            background-color: inherit;
+            font-family: inherit;
+            cursor: pointer;
+        }
+
+
+        .dropdown-content {
+            margin-left: 324px;
+            margin-top: -25px;
+            position: absolute;
+            background-color: #333;
+            min-width: 143px;
+            box-shadow: 18px 26px 18px 4px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            visibility: hidden;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            visibility: visible;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="syllabussection">
+
+        <div class="container">
+
+            <section class="leftss">
+                <div class="col-3">
+
+                    <h2 class="pb-4">Syllabus</h2>
+
+                    <p>&nbsp;</p>
+
+                    <ul>
+
+                        <li><a href="/NEP_MSc__Mathematics__Syllabus_2023-24.pdf" download class="download-button"
+                                onclick="location.href='NEP_MSc__Mathematics__Syllabus_2023-24.pdf'">Detailed
+                                Syllabus 2023-24 (NEW)
+                            </a></li>
+
+                        <li><a href="/MSc (Mathematics) Autonomous 2022-23.pdf" download class="download-button"
+                                onclick="location.href='MSc (Mathematics) Autonomous 2022-23.pdf'">Detailed
+                                Syllabus 2022-23
+                            </a></li>
+
+                        <li><a href="/MSc (Mathematics) Autonomous Final Syllabus 2021-22.pdf" download
+                                class="download-button"
+                                onclick="location.href='MSc (Mathematics) Autonomous Final Syllabus 2021-22.pdf'">Detailed
+                                Syllabus 2021-22
+                            </a></li>
+
+                        <li><a href="/Academic Calender Mathematics 2023-24.pdf" download class="download-button"
+                                onclick="location.href='Academic Calender Mathematics 2023-24.pdf'">Academic Calender
+                            </a></li>
+
+                        <li><a href="/Department profile.pdf" download class="download-button"
+                                onclick="location.href='Department profile.pdf'">Academic Calender
+                            </a></li>
+
+                    </ul>
+
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+
+                </div>
+            </section>
+
+
+
+            <section class="rightss">
+
+                <div class="col-4">
+                    <h2 class="pb-5">Previous Year Question Papers</h2>
+
+                    <p>&nbsp;</p>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">MID SEMESTER EXAMINATION
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="/MSE/Sem (I).pdf" download class="download-button"
+                                onclick="location.href='MSE/Sem (I).pdf'">SEM-I</a>
+                            <a href="#sem-ii">SEM-II</a>
+                            <a href="#sem-iii">SEM-III</a>
+                            <a href="#sem-iv">SEM-IV</a>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">END SEMESTER EXAMINATION
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#sem-i">SEM-I</a>
+                            <a href="#sem-ii">SEM-II</a>
+                            <a href="#sem-iii">SEM-III</a>
+                            <a href="#sem-iv">SEM-IV</a>
+                        </div>
+                    </div>
+
+
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+        <img src="img/dpt5.jpeg" alt="">
+
+    </section>
+
+
+    <section class="secSecond">
+        <!--<p class="sectionTag text-big">Here you find the imformation about department.</p>-->
+        <div class="paras">
+            <div class="col-1">
+                <div class="small-logo">
+                    <p><img alt="" class="img-fluid" src="https://nagpuruniversity.ac.in/images/logo-small.png"></p>
+                    <!--<img src="images/logo-small.png" class="img-fluid" alt="">-->
+                </div>
+                <h4 class="text-light my-2">RASHTRASANT TUKADOJI MAHARAJ NAGPUR UNIVERSITY</h4>
+                <p class="text-light">The Nagpur University was established on 4th August, 1923 with six affiliated
+                    colleges and 927 students. During 1947, the number of students increased to about 9000 accompanied
+                    by the improvement and diversification of curricula and expansion in the range of subjects. The
+                    expansion of library and sports facilities occurred during these years for the intellectual and
+                    physical well being of the students...</p>
+
+                <div class="footersocial">
+                    <a href="http://www.facebook.com/rtm.nu.3">
+                        <img alt="" src="https://nagpuruniversity.ac.in/images/icon-facebook.svg"
+                            style="height:40px; width:40px"></a>
+                    <a href="http://twitter.com/RtmUniversity">
+                        <img alt="" src="https://nagpuruniversity.ac.in/images/icon-twitter.svg"
+                            style="height:40px; width:40px"></a>
+                    <a href="https://instagram.com/rtm_nagpur_university_official?igshid=YmMyMTA2M2Y=">
+                        <img alt="" src="https://nagpuruniversity.ac.in/images/icon-linkedin.svg"
+                            style="height:40px; width:40px"></a>
+                    <a href="https://www.youtube.com/channel/UC9RZ90qFfEckhTRC84tjwyA">
+                        <img alt="" src="https://nagpuruniversity.ac.in/writereaddata/fckimagefile/youtube logo.png"
+                            style="height:40px; width:60px"></a>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <h4 class="mb-4"><u><strong>University Contact</strong></u></h4>
+
+                <p class="address">Rashtrasant Tukadoji Maharaj<br>
+                    Nagpur University,<br>
+                    Jamnalal Bajaj Administrative Building,<br>
+                    Mahatma Jotiba Phule Educational Premises,<br>
+                    Campus Square to Ambazari T-Point Road,<br>
+                    Nagpur - 440033</p>
+
+                <div class="contact-no">&nbsp;</div>
+                <div class="newsletterform mt-3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="background">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1391361506135!2d79.04787331540354!3d21.146860489110814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c043a0dfa8c9%3A0x9ba851e3633b1995!2sRashtrasant%20Tukadoji%20Maharaj%20Nagpur%20University!5e0!3m2!1sen!2sin!4v1620642692750!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0; padding:0; margin: 0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+        <p class="text-footer">
+            Copyright &copy; 2027. All rights Reserved.<br>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
